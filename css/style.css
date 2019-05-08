@@ -1,0 +1,83 @@
+.background{
+	height: 800px;
+	width: 800px;
+	margin: 0 auto;
+	background-color: #eee;
+	position: relative;
+	border:4px solid black;
+	margin-top: 100px;
+}
+div{
+	width: 100px;
+	height: 100px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	
+}
+.row-one{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.row-two{
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
+.row-three{
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.row-four{
+	position: absolute;
+	top: 0;
+	left: 300px;
+}
+.row-five{
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+.row-six{
+	position: absolute;
+	top: 0;
+	left: 500px;
+}
+.row-seven{
+	position: absolute;
+	top: 0;
+	left: 600px;
+}
+.row-eight{
+	position: absolute;
+	top: 0;
+	left: 700px;
+}
+.row-one .first:nth-child(odd){
+	background-color: black;
+}
+.row-two .first:nth-child(even){
+	background-color: black;
+}
+.row-three .first:nth-child(odd){
+	background-color: black;
+}
+.row-four .first:nth-child(even){
+	background-color:black;
+
+}
+.row-five .first:nth-child(odd){
+	background-color: black;
+}
+.row-six .first:nth-child(even){
+	background-color:black;
+
+}
+.row-seven .first:nth-child(odd){
+	background-color: black;
+}
+.row-eight .first:nth-child(even){
+	background-color: black;
+}
